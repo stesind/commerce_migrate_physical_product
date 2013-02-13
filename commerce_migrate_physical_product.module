@@ -1,0 +1,7 @@
+<?php
+function commerce_physical_product_migration_migrate_api() {
+	$api = array(
+			'api' => 2,
+	);
+	return $api;
+}
